@@ -34,3 +34,38 @@
 
 5- create free style pipeline and link it to private git repo(inside it create directory and create file
 with "hello world")
+
+<img src="https://user-images.githubusercontent.com/92440274/217126791-a3ddf65f-6a3d-4346-a374-70ff4464ff0f.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217126893-b8c2b9c9-1c53-45ba-968f-2f865ecb9c53.png">
+
+#####################################
+
+1- create declarative in jenkins GUI pipeline for your own repo to do "ls"
+
+<img src="https://user-images.githubusercontent.com/92440274/217128874-2a720854-a1d2-4d30-9a5b-de0c47191745.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217128888-abfa584e-c69e-487b-828a-179ba21ed381.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217128916-d3a34079-c84e-4c22-91e8-e14960374c26.png">
+
+2- create scripted in jenkins GUI pipeline for your own repo to do "ls"
+
+<img src="https://user-images.githubusercontent.com/92440274/217129418-e8fef4f3-74a4-4213-a16f-5776091887a7.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217129449-f539204b-714f-4d58-b977-c48d9dd613b1.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217129485-14969268-2e8b-4324-86e6-c8c5822f6020.png">
+
+
+3- create the same with jenkinsfile in your branches as multibranch pipeline
+
+<img src="https://user-images.githubusercontent.com/92440274/217126150-020749c0-c2b7-4bd8-8eb1-e0b17f60d6bf.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217126299-fc645f34-19e8-46a4-a55f-8cf23467e960.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/217126370-7daa6bff-5dd6-464a-ac0b-66e4828fe0e7.png">
+
+
+
+
