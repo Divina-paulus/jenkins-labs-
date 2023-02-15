@@ -104,8 +104,21 @@ cp id_rsa.pub authorized-keys
 ```
 <img src="https://user-images.githubusercontent.com/92440274/218141938-c79272e4-9352-484b-b585-6d892b949258.png">
 
+3-from jenkins master create new node with the slave container
+
+<img src="https://user-images.githubusercontent.com/92440274/218918484-4d2f1981-e31b-4373-9f0c-adc9b6971e9d.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/218918504-97014b51-b637-424d-8a96-47ed21b4f85a.png">
 
 
+4- integrate slack with jenkins
 
-
+5- send slack message when stage in your pipeline is successful
+6- install audit logs plugin and test it
+7- fork the following repo https://github.com/mahmoud254/Booster_CI_CD_Project and add
+dockerfile to run this django app and use github actions to build the docker image and push it to
+your dockerhub
+Create infrastructure pipeline to run terraform with jenkins
+task
+Create ansible script to configure application ec2(private)
 
