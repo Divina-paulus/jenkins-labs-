@@ -113,8 +113,27 @@ cp id_rsa.pub authorized-keys
 
 4- integrate slack with jenkins
 
+<img src="https://user-images.githubusercontent.com/92440274/219002481-c4e7a6df-6977-4796-9080-456c896078f9.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/219002500-9382a515-f663-43de-8467-3133eb398169.png">
+
 5- send slack message when stage in your pipeline is successful
+```
+post {
+    success {
+        slackSend color: 'good', message: "Build succeeded! Visit ${env.BUILD_URL}"
+    }
+    failure {
+        slackSend color: 'danger', message: "Build failed! Check the logs at ${env.BUILD_URL}"
+    }
+}
+```
+<img src="https://user-images.githubusercontent.com/92440274/219022765-e5cc3382-431e-44d3-b399-0a3168049da6.png">
+
+<img src="https://user-images.githubusercontent.com/92440274/219023085-00b77fe1-dfe9-4db9-80de-1bea82e2b9a8.png">
+
 6- install audit logs plugin and test it
+
 7- fork the following repo https://github.com/mahmoud254/Booster_CI_CD_Project and add
 dockerfile to run this django app and use github actions to build the docker image and push it to
 your dockerhub
