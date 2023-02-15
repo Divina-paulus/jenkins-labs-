@@ -133,6 +133,12 @@ post {
 <img src="https://user-images.githubusercontent.com/92440274/219023085-00b77fe1-dfe9-4db9-80de-1bea82e2b9a8.png">
 
 6- install audit logs plugin and test it
+<img src="https://user-images.githubusercontent.com/92440274/219030583-5b0c22ed-a081-45c7-b134-a00965d6ee11.png">
+
+- Build Now to any pipeline
+- choose manage jenkins, then choose manage plugins and audit log plugin
+<img src="https://user-images.githubusercontent.com/92440274/219031321-6da62a82-e856-4ce1-ab79-af997d47b095.png">
+
 
 7- fork the following repo https://github.com/mahmoud254/Booster_CI_CD_Project and add
 dockerfile to run this django app and use github actions to build the docker image and push it to
